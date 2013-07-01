@@ -3,7 +3,7 @@
 	"type" : "keeko-app",
 	"authors" : [{
 			"name" : "gossi",
-			"homepage" : "gos.si"
+			"homepage" : "http://gos.si"
 		}
 	],
 	"keywords" : [],
