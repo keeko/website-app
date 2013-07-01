@@ -11,6 +11,7 @@
 		"MIT"
 	],
 	"require" : {
+		"keeko/composer-installer" : "*",
 		"php" : ">=5.4"
 	},
 	"autoload" : {
