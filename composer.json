@@ -10,7 +10,7 @@
 		"MIT"
 	],
 	"require" : {
-		"keeko/composer-installer" : "master-dev",
+		"keeko/composer-installer" : "master-dev@dev",
 		"php" : ">=5.4"
 	},
 	"autoload" : {
