@@ -10,12 +10,21 @@
 		"MIT"
 	],
 	"require" : {
+		"composer/composer" : "@dev",
 		"keeko/composer-installer" : "*",
-		"php" : ">=5.4"
+		"CarpeHora/ExtraPropertiesBehavior" : "@dev",
+		"php" : ">=5.4",
+		"keeko/core" : "master-dev"
 	},
 	"autoload" : {
 		"psr-0" : {
 			"keeko" : "src"
 		}
+	},
+	"extra" : {
+		"keeko" : {
+			"app-class" : "\\keeko\\applications\\website\\WebsiteApplication"
+		},
+		"local" : "../../../keeko-dev"
 	}
 }
