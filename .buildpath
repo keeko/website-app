@@ -19,8 +19,8 @@
 	<buildpathentry kind="src" path="vendor/symfony/options-resolver"/>
 	<buildpathentry kind="src" path="vendor/symfony/routing"/>
 	<buildpathentry kind="src" path="vendor/justinrainbow/json-schema/src"/>
-	<buildpathentry kind="src" path="vendor/symfony/config"/>
 	<buildpathentry excluding="composer/" kind="src" path="vendor/composer"/>
+	<buildpathentry kind="src" path="vendor/symfony/config"/>
 	<buildpathentry kind="src" path="vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs"/>
 	<buildpathentry kind="src" path="vendor/symfony/filesystem"/>
 </buildpath>

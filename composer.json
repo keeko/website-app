@@ -12,7 +12,6 @@
 	"require" : {
 		"composer/composer" : "@dev",
 		"keeko/composer-installer" : "*",
-		"CarpeHora/ExtraPropertiesBehavior" : "@dev",
 		"php" : ">=5.4",
 		"keeko/core" : "master-dev"
 	},

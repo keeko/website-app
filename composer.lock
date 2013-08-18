@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "1dd2553224c0a4f1860491f64a7ef9c8",
+    "hash": "2a4a91d62981d2e07fd338b58b7c5203",
     "packages": [
         {
             "name": "CarpeHora/ExtraPropertiesBehavior",
@@ -56,21 +56,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "029341e114cc03f24cb0a80b97e82d4e78eac852"
+                "reference": "472037fb903b3ef27e3107ae210245b2e6cf46cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/029341e114cc03f24cb0a80b97e82d4e78eac852",
-                "reference": "029341e114cc03f24cb0a80b97e82d4e78eac852",
+                "url": "https://api.github.com/repos/composer/composer/zipball/472037fb903b3ef27e3107ae210245b2e6cf46cb",
+                "reference": "472037fb903b3ef27e3107ae210245b2e6cf46cb",
                 "shasum": ""
             },
             "require": {
                 "justinrainbow/json-schema": "1.1.*",
                 "php": ">=5.3.2",
                 "seld/jsonlint": "1.*",
-                "symfony/console": "~2.3@dev",
-                "symfony/finder": "~2.1",
-                "symfony/process": "~2.1@dev"
+                "symfony/console": "~2.3",
+                "symfony/finder": "~2.2",
+                "symfony/process": "~2.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "~3.7.10"
@@ -117,7 +117,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2013-08-08 10:38:40"
+            "time": "2013-08-17 01:46:23"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -176,16 +176,16 @@
         },
         {
             "name": "keeko/composer-installer",
-            "version": "0.12",
+            "version": "0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/keeko/composer-installer.git",
-                "reference": "0.12"
+                "reference": "0.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/keeko/composer-installer/zipball/0.12",
-                "reference": "0.12",
+                "url": "https://api.github.com/repos/keeko/composer-installer/zipball/0.17",
+                "reference": "0.17",
                 "shasum": ""
             },
             "require": {
@@ -214,7 +214,7 @@
                 }
             ],
             "description": "Keeko component installer",
-            "time": "2013-07-05 17:43:49"
+            "time": "2013-08-17 22:56:44"
         },
         {
             "name": "keeko/core",
@@ -222,12 +222,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/keeko/core.git",
-                "reference": "7a3a36dc662cbf2022a9ebba1fd82668cc770089"
+                "reference": "6882aa3bff9a49d6dcd9f025c47a10b1a2949008"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/keeko/core/zipball/7a3a36dc662cbf2022a9ebba1fd82668cc770089",
-                "reference": "7a3a36dc662cbf2022a9ebba1fd82668cc770089",
+                "url": "https://api.github.com/repos/keeko/core/zipball/6882aa3bff9a49d6dcd9f025c47a10b1a2949008",
+                "reference": "6882aa3bff9a49d6dcd9f025c47a10b1a2949008",
                 "shasum": ""
             },
             "require": {
@@ -261,7 +261,7 @@
                 }
             ],
             "description": "Keeko core",
-            "time": "2013-07-22 18:07:03"
+            "time": "2013-08-08 18:38:21"
         },
         {
             "name": "phing/phing",
@@ -930,7 +930,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "composer/composer": 20,
-        "carpehora/extrapropertiesbehavior": 20,
         "keeko/core": 20
     },
     "platform": {
