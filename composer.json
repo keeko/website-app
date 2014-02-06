@@ -1,29 +1,21 @@
 {
 	"name" : "keeko/website-app",
+	"description" : "Website Frontend App for Keeko",
 	"type" : "keeko-app",
 	"authors" : [{
 			"name" : "gossi",
 			"homepage" : "http://gos.si"
 		}
 	],
-	"license" : [
-		"MIT"
-	],
-	"require" : {
-		"composer/composer" : "@dev",
-		"keeko/composer-installer" : "*",
-		"php" : ">=5.4",
-		"keeko/core" : "master-dev"
-	},
-	"autoload" : {
-		"psr-0" : {
-			"keeko" : "src"
-		}
-	},
+	"license" : "MIT",
 	"extra" : {
 		"keeko" : {
-			"app-class" : "\\keeko\\applications\\website\\WebsiteApplication"
-		},
-		"local" : "../../../keeko-dev"
+			"app" : {
+				"title" : "Website",
+				"router" : "module-action-router",
+				"uri" : "/admin",
+				"design" : "keeko/bootstrap-design"
+			}
+		}
 	}
 }
