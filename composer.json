@@ -17,5 +17,22 @@
 				"design" : "keeko/bootstrap-design"
 			}
 		}
+	},
+	"require-dev" : {
+		"keeko/core" : "dev-master",
+		"composer/composer" : "@dev",
+		"propel/propel" : "@dev"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"keeko\\application\\website" : "src"
+		}
+	},
+	"extra" : {
+		"keeko": {
+			"title": "Website Application",
+			"class": "\\keeko\\application\\website\\WebsiteApplication"
+		},
+		"local" : "../../"
 	}
 }
