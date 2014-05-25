@@ -10,13 +10,12 @@
 	"license" : "MIT",
 	"extra" : {
 		"keeko" : {
-			"app" : {
-				"title" : "Website",
-				"router" : "module-action-router",
-				"uri" : "/admin",
-				"design" : "keeko/bootstrap-design"
+		    "app": {
+				"title" : "Website Application",
+				"class" : "\\keeko\\application\\website\\WebsiteApplication"
 			}
-		}
+		},
+		"local" : "../../"
 	},
 	"require-dev" : {
 		"keeko/core" : "dev-master",
@@ -27,12 +26,5 @@
 		"psr-4" : {
 			"keeko\\application\\website\\" : "src"
 		}
-	},
-	"extra" : {
-		"keeko": {
-			"title": "Website Application",
-			"class": "\\keeko\\application\\website\\WebsiteApplication"
-		},
-		"local" : "../../"
 	}
 }
