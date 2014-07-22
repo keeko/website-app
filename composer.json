@@ -10,12 +10,16 @@
 	"license" : "MIT",
 	"extra" : {
 		"keeko" : {
-		    "app": {
+			"app" : {
 				"title" : "Website Application",
 				"class" : "\\keeko\\application\\website\\WebsiteApplication"
 			}
 		},
 		"local" : "../../"
+	},
+	"require": {
+		"php": ">=5.4",
+		"keeko/composer-installer" : "*"
 	},
 	"require-dev" : {
 		"keeko/core" : "dev-master",
